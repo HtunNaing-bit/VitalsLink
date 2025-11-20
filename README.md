@@ -1,4 +1,4 @@
-# HELIOS — AI-Powered Health & Wellness OS
+# VitalsLink — AI-Powered Health & Wellness OS
 
 **Production-ready, investor-grade Flutter application**
 
