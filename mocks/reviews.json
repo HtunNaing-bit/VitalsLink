@@ -1,0 +1,45 @@
+{
+  "reviews": [
+    {
+      "id": "review_001",
+      "type": "doctor",
+      "entity_id": "doctor_001",
+      "entity_name": "Dr. Sarah Johnson",
+      "rating": 5,
+      "review_text": "Excellent consultation! Very thorough and helpful.",
+      "reviewer_name": "John Doe",
+      "timestamp": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "review_002",
+      "type": "ai_insight",
+      "entity_id": "insight_001",
+      "entity_name": "Sleep Quality Improving",
+      "rating": 5,
+      "review_text": "This insight was spot on! My sleep has improved significantly.",
+      "reviewer_name": "John Doe",
+      "timestamp": "2024-01-14T08:00:00Z"
+    },
+    {
+      "id": "review_003",
+      "type": "provider",
+      "entity_id": "provider_001",
+      "entity_name": "Wellness Lab",
+      "rating": 4,
+      "review_text": "Fast results and easy to use.",
+      "reviewer_name": "Jane Smith",
+      "timestamp": "2024-01-13T14:00:00Z"
+    },
+    {
+      "id": "review_004",
+      "type": "doctor",
+      "entity_id": "doctor_002",
+      "entity_name": "Dr. Michael Chen",
+      "rating": 4,
+      "review_text": "Good experience overall. Would recommend.",
+      "reviewer_name": "John Doe",
+      "timestamp": "2024-01-12T16:00:00Z"
+    }
+  ]
+}
+

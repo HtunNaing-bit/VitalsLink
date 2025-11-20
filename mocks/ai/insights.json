@@ -1,0 +1,50 @@
+{
+  "daily_insights": [
+    {
+      "id": "insight_001",
+      "title": "Sleep Quality Improving",
+      "snippet": "Your sleep duration has increased by 12% this week. Your average sleep quality score is 8.2/10, which is excellent.",
+      "confidence": 0.92,
+      "category": "sleep",
+      "type": "simple",
+      "data_points": ["sleep_duration", "sleep_quality", "heart_rate_variability"],
+      "sources": [],
+      "recommendation": {
+        "why": "Consistent sleep patterns improve recovery and cognitive function",
+        "next_steps": "Continue your current sleep routine. Consider going to bed 15 minutes earlier to reach your 8-hour goal."
+      },
+      "timestamp": "2024-01-15T08:00:00Z"
+    },
+    {
+      "id": "insight_002",
+      "title": "Activity Level Optimal",
+      "snippet": "You've maintained an average of 8,500 steps per day this week. Your activity level is in the optimal range for cardiovascular health.",
+      "confidence": 0.88,
+      "category": "activity",
+      "type": "simple",
+      "data_points": ["steps", "active_minutes", "heart_rate"],
+      "sources": [],
+      "recommendation": {
+        "why": "Regular physical activity reduces risk of chronic disease",
+        "next_steps": "Maintain your current activity level. Consider adding 2-3 strength training sessions per week."
+      },
+      "timestamp": "2024-01-15T09:00:00Z"
+    },
+    {
+      "id": "c_1",
+      "title": "Your Mood & Sleep Connection",
+      "snippet": "VitalsLink detected that on days you **journaled a 'Great' mood**, your **average HRV increased by 5ms** that night. Keep it up!",
+      "confidence": 0.92,
+      "category": "correlative",
+      "type": "correlative",
+      "data_points": ["journal_mood", "sleep_hrv", "heart_rate_variability"],
+      "sources": ["journal", "sleep"],
+      "recommendation": {
+        "why": "Your positive mental state appears to be directly improving your physical recovery during sleep.",
+        "next_steps": "Continue journaling positive experiences. Consider a gratitude practice before bed to enhance this connection."
+      },
+      "timestamp": "2024-01-15T10:00:00Z"
+    }
+  ]
+}
+

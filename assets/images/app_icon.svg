@@ -1,0 +1,44 @@
+<svg width="1024" height="1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Linear gradient for green ECG line -->
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00FF00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#32CD32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- White rounded square background (like YouTube) -->
+  <rect x="0" y="0" width="1024" height="1024" rx="220" ry="220" fill="#FFFFFF" stroke="#000000" stroke-width="8"/>
+  
+  <!-- Black stylized "V" shape (left side) -->
+  <path d="M 200 512 
+           L 400 512 
+           L 450 650 
+           L 500 400 
+           L 550 512 
+           L 750 512" 
+        stroke="#000000" 
+        stroke-width="40" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Green ECG/ECG line extending to the right from the V -->
+  <path d="M 550 512 
+           L 600 450 
+           L 650 550 
+           L 700 400 
+           L 750 500 
+           L 800 450 
+           L 850 550" 
+        stroke="url(#greenGradient)" 
+        stroke-width="35" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Additional green accent dots on the ECG line -->
+  <circle cx="600" cy="450" r="8" fill="#00FF00"/>
+  <circle cx="700" cy="400" r="8" fill="#00FF00"/>
+  <circle cx="850" cy="550" r="8" fill="#00FF00"/>
+</svg>

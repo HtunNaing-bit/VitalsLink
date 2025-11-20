@@ -1,0 +1,209 @@
+{
+  "@@locale": "en",
+  "appName": "VitalsLink",
+  "@appName": {
+    "description": "The application name"
+  },
+  "appTagline": "AI Personal Health OS",
+  "@appTagline": {
+    "description": "The application tagline"
+  },
+  "welcome": "Welcome",
+  "goodMorning": "Good morning",
+  "goodAfternoon": "Good afternoon",
+  "goodEvening": "Good evening",
+  "dashboard": "Dashboard",
+  "coach": "Coach",
+  "insights": "Insights",
+  "profile": "Profile",
+  "login": "Login",
+  "signIn": "Sign In",
+  "email": "Email",
+  "password": "Password",
+  "orContinueWith": "Or continue with",
+  "onboarding": "Onboarding",
+  "welcomeToVitalsLink": "Welcome to VitalsLink",
+  "yourAIPoweredHealthCompanion": "Your AI-powered personal health companion",
+  "personalizeYourExperience": "Personalize Your Experience",
+  "tellUsAboutYourHealthGoals": "Tell us about your health goals",
+  "connectYourData": "Connect Your Data",
+  "linkYourHealthAppsAndDevices": "Link your health apps and devices",
+  "enablePermissions": "Enable Permissions",
+  "grantAccessToHealthData": "Grant access to health data",
+  "youreAllSet": "You're All Set!",
+  "letsStartYourHealthJourney": "Let's start your health journey",
+  "next": "Next",
+  "back": "Back",
+  "skip": "Skip",
+  "getStarted": "Get Started",
+  "sleep": "Sleep",
+  "heartRate": "Heart Rate",
+  "steps": "Steps",
+  "activity": "Activity",
+  "stress": "Stress",
+  "hrv": "HRV",
+  "aiRecommendation": "AI Recommendation",
+  "setGoal": "Set Goal",
+  "remindMe": "Remind Me",
+  "synced": "Synced",
+  "offline": "Offline",
+  "lastSynced": "Last synced",
+  "justNow": "Just now",
+  "minutesAgo": "{count} minutes ago",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursAgo": "{count} hours ago",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{count} days ago",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "goals": "Goals",
+  "activeGoals": "Active Goals",
+  "badges": "Badges",
+  "noGoalsYet": "No goals yet",
+  "createYourFirstGoal": "Create your first goal to get started",
+  "createGoal": "Create Goal",
+  "notifications": "Notifications",
+  "noNotifications": "No notifications",
+  "youreAllCaughtUp": "You're all caught up!",
+  "permissions": "Permissions",
+  "grantAccessToHealthData": "Grant access to health data",
+  "healthData": "Health Data",
+  "readSleepActivityAndHeartRateData": "Read sleep, activity, and heart rate data",
+  "notificationsPermission": "Notifications",
+  "receiveRemindersAndUpdates": "Receive reminders and updates",
+  "location": "Location",
+  "trackLocationForActivityData": "Track location for activity data",
+  "whyWeNeedThis": "Why we need this:",
+  "weReadSleepAndActivity": "We read Sleep & Activity to give personalized insights. You can revoke anytime.",
+  "dataWeRead": "Data we read:",
+  "connectDataSources": "Connect Data Sources",
+  "dataHub": "Data Hub",
+  "sources": "Sources",
+  "vault": "Vault",
+  "connectedSources": "Connected Sources",
+  "dataVault": "Data Vault",
+  "encryptedBackupsAndDataManagement": "Encrypted backups and data management",
+  "backup": "Backup",
+  "createBackup": "Create Backup",
+  "createAnEncryptedBackup": "Create an encrypted backup",
+  "restoreBackup": "Restore Backup",
+  "restoreFromABackup": "Restore from a backup",
+  "export": "Export",
+  "exportData": "Export Data",
+  "exportYourDataAsJson": "Export your data as JSON",
+  "delete": "Delete",
+  "deleteAllData": "Delete All Data",
+  "permanentlyDeleteAllYourData": "Permanently delete all your data",
+  "settings": "Settings",
+  "appearance": "Appearance",
+  "darkMode": "Dark Mode",
+  "useDarkTheme": "Use dark theme",
+  "accessibility": "Accessibility",
+  "reduceMotion": "Reduce Motion",
+  "disableAnimationsForBetterAccessibility": "Disable animations for better accessibility",
+  "privacy": "Privacy",
+  "analytics": "Analytics",
+  "helpUsImproveBySharingUsageData": "Help us improve by sharing usage data",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "language": "Language",
+  "english": "English",
+  "myanmar": "မြန်မာ (Myanmar)",
+  "about": "About",
+  "appVersion": "App Version",
+  "contactSupport": "Contact Support",
+  "rateApp": "Rate App",
+  "dangerZone": "Danger Zone",
+  "deleteAccount": "Delete Account",
+  "areYouSureYouWantToDeleteYourAccount": "Are you sure you want to delete your account? This action cannot be undone.",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "home": "Home",
+  "journal": "Journal",
+  "aiChat": "AI Chat",
+  "care": "Care",
+  "energy": "Energy",
+  "mood": "Mood",
+  "great": "Great",
+  "good": "Good",
+  "okay": "Okay",
+  "notGreat": "Not Great",
+  "bad": "Bad",
+  "howAreYouFeeling": "How are you feeling?",
+  "journalEntry": "Journal Entry",
+  "writeAboutYourDay": "Write about your day, thoughts, or feelings...",
+  "generating": "Generating...",
+  "generateAISummary": "Generate AI Summary",
+  "aiSummary": "AI Summary",
+  "askVitalsLink": "Ask VitalsLink",
+  "voiceToTextComingSoon": "Voice-to-text coming soon",
+  "sorryIEncounteredAnError": "Sorry, I encountered an error. Please try again.",
+  "helloImVitalsLink": "Hello! I'm VitalsLink, your AI health co-pilot. How can I help you today?",
+  "scenarioPlanner": "Scenario Planner: What If?",
+  "scenarioPlannerDescription": "Run predictive simulations to see how lifestyle changes might impact your health metrics.",
+  "correlative": "CORRELATIVE",
+  "confidence": "confidence",
+  "recommendation": "Recommendation",
+  "howThisInsightWasGenerated": "How This Insight Was Generated",
+  "dataSources": "Data Sources:",
+  "yourDataIsProcessedLocally": "Your data is processed locally and never shared without your explicit consent.",
+  "gotIt": "Got it",
+  "careHub": "Care Hub",
+  "providers": "Providers",
+  "reviews": "Reviews",
+  "labResults": "Lab Results",
+  "noProvidersAvailable": "No providers available",
+  "bookConsultation": "Book Consultation",
+  "bookAConsultationWith": "Book a consultation with {doctor}?",
+  "@bookAConsultationWith": {
+    "placeholders": {
+      "doctor": {
+        "type": "String"
+      }
+    }
+  },
+  "book": "Book",
+  "noReviewsYet": "No reviews yet",
+  "viewLabResults": "View Lab Results",
+  "accessYourLabTestResults": "Access your lab test results and track biomarkers over time",
+  "errorBookingConsultation": "Error booking consultation: {error}",
+  "@errorBookingConsultation": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "consultationBookedSuccessfully": "Consultation booked successfully!",
+  "reviewsCount": "{count} reviews",
+  "@reviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewsAndReflection": "Reviews & Reflection",
+  "allReviews": "All Reviews",
+  "doctors": "Doctors",
+  "aiInsights": "AI Insights",
+  "anonymous": "Anonymous"
+}
+

@@ -1,0 +1,38 @@
+VITALS_LINK APP ICON - QUICK REFERENCE GUIDE
+============================================
+
+DESIGN ELEMENTS:
+----------------
+1. White rounded square background
+2. Dark gray/black circle (center) with radial gradient
+3. Faint grid/radar pattern overlay
+4. White tick marks around circle perimeter
+5. White waveform (V shape) - health metrics
+6. Lime green upward trend/checkmark - positive progress
+7. Lime green dot at bottom center
+
+COLORS:
+-------
+- White: #FFFFFF
+- Dark Gray: #1A1A1A to #2A2A2A (gradient)
+- Lime Green: #00FF00 to #7FFF00 (gradient)
+
+SIZES NEEDED:
+-------------
+- 1024x1024 (master file)
+- All iOS sizes (auto-generated)
+- All Android sizes (auto-generated)
+
+FILE LOCATION:
+--------------
+- assets/images/app_icon.png (1024x1024)
+- assets/images/app_icon.svg (vector version)
+
+AFTER CREATING ICON:
+--------------------
+1. Place app_icon.png in assets/images/
+2. Run: flutter pub run flutter_launcher_icons
+3. Test on devices
+
+See VITALS_LINK_ICON_SPECIFICATION.md for full details.
+

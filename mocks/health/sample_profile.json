@@ -1,0 +1,51 @@
+{
+  "user_id": "user_123",
+  "profile": {
+    "name": "John Doe",
+    "age": 35,
+    "gender": "male",
+    "height_cm": 180,
+    "weight_kg": 75
+  },
+  "metrics": {
+    "sleep": {
+      "duration_hours": 7.5,
+      "quality_score": 8.2,
+      "bedtime": "22:30",
+      "wake_time": "06:00"
+    },
+    "activity": {
+      "steps": 8500,
+      "active_minutes": 45,
+      "calories_burned": 2200
+    },
+    "heart": {
+      "resting_hr": 72,
+      "hrv": 45,
+      "max_hr": 185
+    },
+    "energy": {
+      "level": 85,
+      "trend": "improving"
+    },
+    "mood": {
+      "current": "great",
+      "average_week": 7.5
+    }
+  },
+  "connected_sources": [
+    {
+      "id": "healthkit",
+      "name": "Apple Health",
+      "connected": true,
+      "last_sync": "2024-01-15T08:00:00Z"
+    },
+    {
+      "id": "fitbit",
+      "name": "Fitbit",
+      "connected": true,
+      "last_sync": "2024-01-15T07:30:00Z"
+    }
+  ]
+}
+

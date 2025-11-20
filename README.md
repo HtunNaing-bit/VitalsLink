@@ -19,8 +19,8 @@
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-org/helios.git
-cd helios
+git clone https://github.com/your-org/vitalslink.git
+cd vitalslink
 ```
 
 2. **Install dependencies:**
@@ -87,7 +87,7 @@ mocks/
 
 ### Theme Variants
 
-HELIOS supports 4 theme variants:
+VitalsLink supports 4 theme variants:
 
 1. **Default Blue** (#007AFF) - Apple-style primary
 2. **Teal Gradient** (#5EE6C4 → #A3F3FF) - Fresh, energetic
@@ -98,7 +98,7 @@ HELIOS supports 4 theme variants:
 
 **In Code:**
 ```dart
-import 'package:helios/src/utils/style_tokens.dart';
+import 'package:vitalslink/src/utils/style_tokens.dart';
 
 final themeManager = ThemeManager();
 await themeManager.setTheme(ThemePresets.tealGradient);
@@ -123,7 +123,7 @@ await themeManager.setAutoMode(true);
 final aiService = AIService();
 aiService.useMocks = true;  // Use mock JSON
 aiService.useMocks = false; // Use real API
-aiService.baseUrl = 'https://api.helios.com'; // Set API URL
+aiService.baseUrl = 'https://api.vitalslink.com'; // Set API URL
 ```
 
 **Mock JSON Files:**
@@ -150,7 +150,7 @@ aiService.baseUrl = 'https://api.helios.com'; // Set API URL
 - ✅ **Daily Health Dashboard** - Sleep, Heart Rate, Energy, Mood, Steps
 - ✅ **AI Insights** - Personalized recommendations with confidence scores
 - ✅ **Journal & Mood Tracker** - Quick mood logging with AI summaries
-- ✅ **"Ask HELIOS" Chat** - Conversational AI health coaching
+- ✅ **"Ask VitalsLink" Chat** - Conversational AI health coaching
 - ✅ **Health Data Sync** - HealthKit/Google Fit abstraction layer
 - ✅ **Telehealth Booking** - Provider marketplace
 - ✅ **Subscription Management** - Freemium with premium tiers

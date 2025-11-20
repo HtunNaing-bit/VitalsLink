@@ -1,0 +1,103 @@
+name: vitalslink_flutter
+description: VitalsLink — AI Personal Health OS (Flutter)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  go_router: ^14.2.0
+  flutter_riverpod: ^2.5.1
+  hooks_riverpod: ^2.5.1
+  freezed_annotation: ^2.4.4
+  dio: ^5.4.0
+  supabase_flutter: ^2.5.2
+  fl_chart: ^0.66.0
+  google_fonts: ^6.2.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  uuid: ^4.4.0
+  collection: ^1.18.0
+  flutter_hooks: ^0.20.5
+  speech_to_text: ^7.3.0
+  flutter_tts: ^3.8.5
+  awesome_notifications: ^0.10.1
+  package_info_plus: ^9.0.0
+  url_launcher: ^6.3.0
+  lottie: ^3.1.2
+  path_provider: ^2.1.3
+  logger: ^2.2.0
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+  json_annotation: ^4.9.0
+  health: ^13.0.0
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_messaging: ^15.1.3
+  cloud_functions: ^5.6.2
+  flutter_secure_storage: ^9.2.2
+  local_auth: ^2.1.7
+  pdf: ^3.11.1
+  printing: ^5.13.2
+  flutter_animate: ^4.5.0
+  reorderable_grid_view: ^2.2.7
+  rive: ^0.12.4
+  animations: ^2.0.11
+  flutter_svg: ^2.0.10+1
+  shared_preferences: ^2.2.2
+  sembast: ^3.4.0+1
+  camera: ^0.11.0+2
+  image_picker: ^1.1.2
+  http: ^1.2.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_local_notifications: ^17.2.2
+  confetti: ^0.7.0
+  crypto: ^3.0.3
+
+  intl: any
+
+dependency_overrides:
+  # Override intl version to resolve health package conflict
+  # Remove this when health package is updated to support intl 0.20.2
+  intl: 0.19.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.9
+  freezed: ^2.4.7
+  hive_generator: ^2.0.1
+  mocktail: ^1.0.3
+  golden_toolkit: ^0.15.0
+  json_serializable: ^6.8.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/rive/
+    - assets/lottie/
+    - assets/icons/
+    - assets/svgs/
+    - mocks/ai/
+    - mocks/health/
+    - mocks/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/app_icon_android.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/app_icon_android.png"
+

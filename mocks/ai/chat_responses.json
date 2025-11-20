@@ -1,0 +1,46 @@
+{
+  "responses": [
+    {
+      "query": "How can I improve my sleep?",
+      "response": "Based on your sleep data, I recommend maintaining a consistent sleep schedule. Your current average is 7.5 hours, which is good. Try going to bed 15 minutes earlier to reach 8 hours. Also, avoid screens 1 hour before bed and keep your bedroom cool (65-68°F).",
+      "confidence": 0.89,
+      "suggested_actions": [
+        {
+          "type": "set_goal",
+          "label": "Set Sleep Goal",
+          "data": {"target_hours": 8}
+        },
+        {
+          "type": "schedule",
+          "label": "Schedule Bedtime Reminder",
+          "data": {"time": "22:00"}
+        }
+      ]
+    },
+    {
+      "query": "What should I eat today?",
+      "response": "Based on your activity level and goals, I recommend a balanced meal with lean protein (chicken or fish), complex carbs (brown rice or quinoa), and vegetables. Aim for 30g protein per meal. Your current protein intake is slightly below your goal.",
+      "confidence": 0.85,
+      "suggested_actions": [
+        {
+          "type": "log_food",
+          "label": "Log Meal",
+          "data": {}
+        }
+      ]
+    },
+    {
+      "query": "How's my heart health?",
+      "response": "Your resting heart rate of 72 bpm is within the healthy range (60-100 bpm). Your HRV has been stable, indicating good recovery. Continue your current activity level and maintain a balanced diet.",
+      "confidence": 0.91,
+      "suggested_actions": [
+        {
+          "type": "view_insights",
+          "label": "View Heart Health Insights",
+          "data": {"category": "heart"}
+        }
+      ]
+    }
+  ]
+}
+
